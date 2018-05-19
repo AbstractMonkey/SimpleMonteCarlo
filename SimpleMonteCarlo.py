@@ -11,7 +11,6 @@ img_height, img_width = circle_img.shape
 print(circle_img.shape, circle_img.dtype)
 
 # Make a copy for graphical imaging purposes
-#circle_img[img_height-1,:] = 255
 circle_img_copy = copy.copy(circle_img)
 
 # Set up variables for the MonteCarlo algorithm loop
